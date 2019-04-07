@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navItems {
+    padding: 15px 30px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.heading {
+    padding: 15px 30px;
+    color: black;
+}
+
+.navList {
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.navBtn {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.mainImage img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    opacity: .8;
+    z-index: -2;
+}
+.mainArea{
+    position: absolute;
+    bottom: 300px;
+    z-index: 2;
+}
+.mText{
+color: white;
+padding: 0 30px;
+}
+.mText h1{
+    font-size: 65px;
+}
+.form{
+    width: 50vw;
+    margin: auto;
+}
+input{
+    width: 40vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
